@@ -1,6 +1,8 @@
 import dash
 import dash_table
 import pandas as pd
+import numpy as np
+impoer seaborn as sns
 
 df = pd.read_csv('https://api.covid19india.org/csv/latest/state_wise.csv') # covid 19 dataset state wise.
 bootstrap = "https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/solar/bootstrap.min.css"
